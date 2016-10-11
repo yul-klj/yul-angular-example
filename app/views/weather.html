@@ -1,0 +1,16 @@
+<link href="css/main.css" rel="stylesheet" />
+<div class="container" style="background: black;">
+    <div class="row">
+      <div class="col-sm-5 col-sm-offset-4">
+        <h1>{{ fiveDay.city_name }}</h1>
+        <h1>{{ fiveDay.country }}</h1>
+        <h2>5-day forecast</h2>
+
+        <div class="forecast" ng-repeat="day in fiveDay.days">
+          <div class="day row">
+            <weather-app day="day"></weather-app>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

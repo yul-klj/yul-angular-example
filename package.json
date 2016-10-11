@@ -1,0 +1,12 @@
+{
+  "name"         : "node-sample",
+  "version"      : "0.0.0",
+  "description"  : "Simple todo application.",
+  "main"         : "server.js",
+  "author"       : "Scotch",
+  "dependencies" : {
+    "body-parser"    : "^1.4.3",
+    "express"        : "^4.13.4",
+    "method-override": "^2.1.3"
+  }
+}
